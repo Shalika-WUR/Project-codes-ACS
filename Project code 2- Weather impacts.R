@@ -125,11 +125,11 @@ abline(v=c(attr(ns(demeaned$newPREC,5), "Boundary.knots")[1],attr(ns(demeaned$ne
 #compare with non-csa farms
 
 
-#-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
 #note-following to be done
 #apply same concept to geo-coded csv farms and weather data-identify weather thresholds
-#modify following code from Dr. Ariel to own dataset
+#modify following code from Ortiz-Bobea 2021 to own dataset
 #no interpolation need, farm level point data
 #match farms to nearest grid and extract data
 #variables to be used- weather (IMD/CHIRPS), soil moisture?
