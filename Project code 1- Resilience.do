@@ -118,7 +118,6 @@ egen totlLORfreq= count(Lengthofrecovery ) if Lengthofrecovery != .  , by( item 
 save "C:\Users\S.VYAS\Desktop\CIMMYT\Work\Recovery\Revised Working Folder-November 2018\Sept_2020\Combinedcrops_Recovery.dta", replace
 collapse(mean) normalizedloss normalizedrecovery Lengthofrecovery dipfreq fullrecovery fullrecovfreq recoveryrate LORfreq1 LORfreq2 LORfreq3 LORfreq4 LORfreq5 totlLORfreq , by ( item country ISOCodes )
 export excel using "C:\Users\S.VYAS\Desktop\CIMMYT\Work\Recovery\Revised Working Folder-November 2018\Sept_2020\Allmainvariables.xls", firstrow(variables)
-**DONT SAVE!!!!! MAKE SURE YOU DONT SAVE THE FILE-ALL DATA WILL BE LOST**
 use "C:\Users\S.VYAS\Desktop\CIMMYT\Work\Recovery\Revised Working Folder-November 2018\Sept_2020\Combinedcrops_Recovery.dta", clear
 save "C:\Users\S.VYAS\Desktop\CIMMYT\Work\Recovery\Revised Working Folder-November 2018\Sept_2020\Combinedcrops_Recovery.dta", replace
 
